@@ -3,7 +3,7 @@
 
 This project is an example of automaton state chart using Cytoscape.
 Japanese introduction is the following : 
-https://qiita.com/ggszk/items/4884f764936686d740e1
+https://qiita.com/ggszk/items/ad19bd46f0b93cc7e377
 
 [Note]
 
