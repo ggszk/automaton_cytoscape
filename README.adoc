@@ -1,0 +1,18 @@
+= Automaton state chart by Cytoscape
+:root: https://github.com/ggszk/automaton_cytoscape/
+
+This project is an example of automaton state chart using Cytoscape.
+Japanese introduction is the following : 
+https://qiita.com/ggszk/items/4884f764936686d740e1
+
+[Note]
+
+* automaton_sample.cys : Sample state chart
+* automaton_styles.xml : Style file for automaton state chart
+* automaton_sample.cyjs : Sample state chart (exported)
+* automaton_sample.sif : Logical structure of the sample (sif export)
+* double_circle.png : Image for accepted state
+
+== License
+
+Apache License V2, see LICENSE

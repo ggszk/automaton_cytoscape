@@ -1,0 +1,214 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.7.2",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "shared_name" : "状態遷移図.sif",
+    "name" : "状態遷移図.sif",
+    "SUID" : 193,
+    "__Annotations" : [ ],
+    "selected" : true
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "213",
+        "shared_name" : "q4",
+        "name" : "q4",
+        "SUID" : 213,
+        "type" : "accepted",
+        "selected" : false
+      },
+      "position" : {
+        "x" : 108.83361856233302,
+        "y" : 42.35137939453125
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "158",
+        "shared_name" : "q3",
+        "name" : "q3",
+        "SUID" : 158,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -12.211179134300579,
+        "y" : 43.118492126464844
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "206",
+        "shared_name" : "q2",
+        "name" : "q2",
+        "SUID" : 206,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -122.54105698769412,
+        "y" : -65.96377563476562
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "159",
+        "shared_name" : "q1",
+        "name" : "q1",
+        "SUID" : 159,
+        "type" : "",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -243.52862548828125,
+        "y" : 42.934539794921875
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "203",
+        "shared_name" : "start",
+        "name" : "start",
+        "SUID" : 203,
+        "type" : "start",
+        "selected" : false
+      },
+      "position" : {
+        "x" : -359.37109375,
+        "y" : 42.75987243652344
+      },
+      "selected" : false
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "215",
+        "source" : "213",
+        "target" : "213",
+        "shared_name" : "q4 (上, 下, 左, 右, P) q4",
+        "name" : "q4 (上, 下, 左, 右, P) q4",
+        "interaction" : "上, 下, 左, 右, P",
+        "SUID" : 215,
+        "shared_interaction" : "上, 下, 左, 右, P",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "214",
+        "source" : "158",
+        "target" : "213",
+        "shared_name" : "q3 (P) q4",
+        "name" : "q3 (P) q4",
+        "interaction" : "P",
+        "SUID" : 214,
+        "shared_interaction" : "P",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "212",
+        "source" : "158",
+        "target" : "206",
+        "shared_name" : "q3 (下) q2",
+        "name" : "q3 (下) q2",
+        "interaction" : "下",
+        "SUID" : 212,
+        "shared_interaction" : "下",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "211",
+        "source" : "158",
+        "target" : "159",
+        "shared_name" : "q3 (上, 左, 右) q1",
+        "name" : "q3 (上, 左, 右) q1",
+        "interaction" : "上, 左, 右",
+        "SUID" : 211,
+        "shared_interaction" : "上, 左, 右",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "210",
+        "source" : "206",
+        "target" : "158",
+        "shared_name" : "q2 (右) q3",
+        "name" : "q2 (右) q3",
+        "interaction" : "右",
+        "SUID" : 210,
+        "shared_interaction" : "右",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "209",
+        "source" : "206",
+        "target" : "159",
+        "shared_name" : "q2 (上, 左, P) q1",
+        "name" : "q2 (上, 左, P) q1",
+        "interaction" : "上, 左, P",
+        "SUID" : 209,
+        "shared_interaction" : "上, 左, P",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "208",
+        "source" : "206",
+        "target" : "206",
+        "shared_name" : "q2 (下) q2",
+        "name" : "q2 (下) q2",
+        "interaction" : "下",
+        "SUID" : 208,
+        "shared_interaction" : "下",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "207",
+        "source" : "159",
+        "target" : "206",
+        "shared_name" : "q1 (下) q2",
+        "name" : "q1 (下) q2",
+        "interaction" : "下",
+        "SUID" : 207,
+        "shared_interaction" : "下",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "205",
+        "source" : "159",
+        "target" : "159",
+        "shared_name" : "q1 (上, 左, 右, P) q1",
+        "name" : "q1 (上, 左, 右, P) q1",
+        "interaction" : "上, 左, 右, P",
+        "SUID" : 205,
+        "shared_interaction" : "上, 左, 右, P",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "204",
+        "source" : "203",
+        "target" : "159",
+        "shared_name" : "start (none) q1",
+        "name" : "start (none) q1",
+        "interaction" : "start",
+        "SUID" : 204,
+        "shared_interaction" : "none",
+        "selected" : false
+      },
+      "selected" : false
+    } ]
+  }
+}

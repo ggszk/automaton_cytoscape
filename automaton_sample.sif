@@ -1,0 +1,10 @@
+start	start	q1
+q1	上, 左, 右, P	q1
+q1	下	q2
+q2	下	q2
+q2	上, 左, P	q1
+q2	右	q3
+q3	上, 左, 右	q1
+q3	下	q2
+q3	P	q4
+q4	上, 下, 左, 右, P	q4
